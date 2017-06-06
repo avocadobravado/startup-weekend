@@ -7,11 +7,13 @@
 
     <!--Fonts-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- CSS  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="css/materialize.css">
     <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
     <title>Startup Weekend</title>
@@ -20,7 +22,7 @@
     <div class="top-section container-fluid">
       <nav class="transparent" role="navigation">
         <div class="nav-wrapper container">
-          <img src="img/logolol.png" class="left">
+          <img src="img/logolol.svg" class="left">
 
           <ul class="right hide-on-med-and-down">
             <li><a href="#">Apply Now</a></li>
@@ -46,14 +48,13 @@
       </nav>
       <div class="container">
         <h1 class="center-align">Learn, Network, Startup</h1>
-        <h3 class="center-align">In just 54 hours, you will experience the highs, lows, fun, and pressure that make up life at a startup. As you learn how to create a real company, you'll meet the very best mentors, investors, cofounders, and sponsors who are ready to help you get started. Your community is here to help you — find an event today!</h3>
+        <h4 class="center-align">In just 54 hours, you will experience the highs, lows, fun, and pressure that make up life at a startup. As you learn how to create a real company, you'll meet the very best mentors, investors, cofounders, and sponsors who are ready to help you get started. Your community is here to help you — find an event today!</h4>
       </div>
 
       <div class="container">
         <div class="row">
-          <div class="col teal s8 offset-s2">
-            <h4 class="left">Find an event near:</h4>
-
+          <div class="col nav-event s8 offset-s2">
+            <h5 class="left">Find an event near:</h5>
             <a class="right waves-effect waves-light btn-large">button</a>
             <form class="right">
               <div class="input-field">
@@ -66,7 +67,7 @@
         </div>
       </div><!--CONTAINER FOR SEARCH ENDS-->
   </div><!--TOP SECTION ENDS-->
-  <div class="container" id="test">
+  <div class="container">
     <div class="body-container">
       <div class="body-header">
         <h3 class="center-align"><strong>The hardest part of starting up is starting out. At Startup Weekend, you'll be immersed in the ideal environment for startup magic to happen.</strong></h3>
@@ -74,26 +75,40 @@
       </div>
       <div class="row">
         <div class="col s12 m6 l3 body-column right">
-          <h5 class="center-align">Connect</h5>
+          <div class="image">
+            <img src="img/globe.svg" alt="globe" class="connect">
+          </div>
+          <h5 class="center-align"><strong>Connect</strong></h5>
           <p class="center-align">Connect with people driven to build something new. Rich and diverse talent is a Startup Weekend staple.</p>
           <p class="center-align">Are you ready to meet your next (cofounder) (friend) (mentor) (investor)?</p>
         </div>
         <div class="col s12 m6 l3 body-column right">
-          <h5 class="center-align">Discover</h5>
+          <div class="image">
+            <img src="img/clock.svg" alt="globe" class="discover">
+          </div>
+          <h5 class="center-align"><strong>Discover</strong></h5>
           <p class="center-align">Discover where you are on the Entrepreneur's Journey.</p>
           <p class="center-align">Find the resources available near you.</p>
           <p class="center-align">Leave knowing the next steps you need to take on your road to success.</p>
         </div>
+
         <div class="col s12 m6 l3 body-column right">
-          <h5 class="center-align">Learn</h5>
+          <div class="image">
+            <img src="img/cap.svg" alt="globe" class="learn">
+          </div>
+          <h5 class="center-align"><strong>Learn</strong></h5>
           <p class="center-align">Learn what it really takes to start a company.</p>
 
           <p class="center-align">No book, panel, speaker, or blog post will teach you what you need to know.</p>
 
           <p class="center-align">The only way to learn is the experience of trying.</p>
+
         </div>
         <div class="col s12 m6 l3 body-column right">
-          <h5 class="center-align">Start</h5>
+          <div class="image">
+            <img src="img/flag.svg" alt="globe" class="start">
+          </div>
+          <h5 class="center-align"><strong>Start</strong></h5>
           <p class="center-align">It’s that simple. Startup Weekend is designed to get you going, FAST.</p>
 
           <p class="center-align">Your local Organizers will set up the ideal environment for you to be successful and learn as much as possible in just 54 hours.</p>
@@ -101,8 +116,156 @@
       </div>
 
     </div>
-  </div>
+  </div><!--ICON COLUMN SECTION ENDS-->
 
+
+  <div class="container-fluid weekend">
+    <div class="container">
+      <div class="row center-align">
+        <div class="col s12">
+          <h1 class="center-align">Startup Weekend by the Numbers:</h1>
+        </div>
+          <div class="stats">
+            <div class="col s12 m6 l3">
+              <h1>23k+</h1>
+              <p>Teams Formed</p>
+            </div>
+            <div class="col s12 m6 l3">
+              <h1>193k+</h1>
+              <p>Alumni Community Members</p>
+            </div>
+            <div class="col s12 m6 l3">
+              <h1>150</h1>
+              <p>Countries (That's more than Starbucks!)</p>
+            </div>
+            <div class="col s12 m6 l3">
+              <h1>2.9k+</h1>
+              <p>Events to Date</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid schedule">
+      <div class="container">
+        <div class="row center-align">
+          <div class="col s12">
+            <h4><strong>The Schedule</strong></h4>
+            <h5>Here's what happens during Startup Weekend:</h5>
+          </div>
+        </div>
+        <div class="row center-align">
+          <h4><strong>Day 1: Meet, Pitch & Team Up</strong></h4>
+          <div class="col s12 l6">
+            <div class="card medium">
+              <div class="card-image">
+                <img src="img/card1.png" alt="card1">
+              </div>
+              <div class="card-content">
+                <h5>Dinner & Networking</h5>
+                <p>Get to know your new friends. Meet the people you'll be working with.<p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div class="card medium">
+              <div class="card-image">
+                <img src="img/card2.png" alt="card1">
+              </div>
+              <div class="card-content">
+                <h5>Choose Your Project</h5>
+                <p>From the top projects – Choose which one you'll work on over the weekend.<p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row center-align">
+          <div class="col s12 l6">
+            <div class="card medium">
+              <div class="card-image">
+                <img src="img/card3.png" alt="card1">
+              </div>
+              <div class="card-content">
+                <h5>60 Seconds to Pitch</h5>
+                <p>Got an idea? You’ve got 1 minute to pitch in front of the group.<p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div class="card medium">
+              <div class="card-image">
+                <img src="img/card4.png" alt="card1">
+              </div>
+              <div class="card-content">
+                <h5>Build a Team</h5>
+                <p>Whether it's your idea or someone else’s, you'll create a cross-functional team to work with over the weekend.<p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row center-align">
+          <h4><strong>Day 2: Learn & Work</strong></h4>
+          <div class="col s12 l6">
+            <div class="card medium">
+              <div class="card-image">
+                <img src="img/card5.png" alt="card1">
+              </div>
+              <div class="card-content">
+                <h5>Learn from the Best</h5>
+                <p>Local mentors will be coming in throughout the event to coach you through the hard problems.<p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div class="card medium">
+              <div class="card-image">
+                <img src="img/card6.png" alt="card1">
+              </div>
+              <div class="card-content">
+                <h5>Get to Work</h5>
+                <p>We've got the resources and support in place to make things happen in a short period of time.<p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="row center-align">
+          <h4><strong>Day 3: Present & Choose</strong></h4>
+          <div class="col s12 l6">
+            <div class="card medium">
+              <div class="card-image">
+                <img src="img/card7.png" alt="card1">
+              </div>
+              <div class="card-content">
+                <h5>Present in Front of Panel Judges</h5>
+                <p>The culmination of the weekend. You'll have 5 minutes to present the product or service you built to the crowd and a panel of experts.<p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div class="card medium">
+              <div class="card-image">
+                <img src="img/card8.png" alt="card1">
+              </div>
+              <div class="card-content">
+                <h5>Celebrate</h5>
+                <p>Watch the other teams present and celebrate all the work you’ve done. Get the opportunity to talk to judges and mingle with mentors.<p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

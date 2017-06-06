@@ -5,4 +5,5 @@
 
 .btn-large {
   @include nav-button;
+  @include global-radius;
 }

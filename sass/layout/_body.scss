@@ -1,11 +1,53 @@
-// body background color
+// column-spacing
+.col {
+
+}
 
 
 
-
+// body column styling
 .body-column {
-  height: 19em;
+  height: 20em;
   background-color: #fff;
-  border: em(2) solid red;
-  margin: em(28) em(28) 0 em(28);
+  @include column-spacing;
+}
+
+
+// icon for column styles
+.image {
+  @include icon-style;
+}
+
+.start {
+  // padding: 0 0 0.5em 0.75em;
+  padding: 1em 1em 1em 1.3em;
+}
+
+.learn {
+  // padding: 0.5em 0 0 .1em;
+    padding: 1.4em 1em 1em 0.6em;
+}
+
+.discover {
+  // padding: 0 0 5em .1em;
+    padding: 0.7em 1.2em 1em 0.65em;
+}
+
+.connect {
+    padding: 1.05em 1em 0 0.7em;
+}
+
+.weekend {
+  background-color: $white;
+}
+
+.stats {
+  h1 {
+    color: $column-icon-color;
+    font-weight: bold;
+    margin: 0;
+  }
+  p {
+    color: $black;
+  }
 }

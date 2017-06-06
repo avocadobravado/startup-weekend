@@ -5,14 +5,34 @@
 // search bar mixin
 #search {
   @include nav-search;
+  width: 10em;
 }
 // nav background
 .top-section {
-  background-image: url('../img/photo.jpg');
+  background-image: url('../img/photo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 50vh;
   @include header-text;
 }
 // nav styles
+
+body > div.top-section.container-fluid > div:nth-child(3) > div > div {
+  background-color: $column-icon-color;
+  padding: 0.5em 3em;
+  @include global-radius;
+}
+  // .nav-event {
+  //   background-color: $column-icon-color;
+  // }
+
+
 nav img {
   height: 50px;
+}
+
+///remove text shadow for x in search bar
+
+body > div.top-section.container-fluid > nav > div > form > div > i {
+  text-shadow: none;
 }

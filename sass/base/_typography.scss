@@ -6,8 +6,35 @@ body {
   font: normal 125% / 1.4 $text-font-stack;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $h-font-stack;
+}
+
 // nav close icon
 body > div.top-section.container-fluid > div > div > div > form > div > i {
   margin-top: .25em;
   text-shadow: none;
+}
+
+
+h1 {
+  font-size: em(60);
+}
+
+.body-container h3 {
+  font-size: em(30);
+  line-height: em(23);
+  margin: 2em 0 0.5em 0;
+}
+.body-container h5 {
+  font-size: em(20);
+  margin-bottom: 1em;
+}
+// body column margin
+.body-column h5 {
+    margin-top: em(7);
+}
+
+.nav-event h5 {
+  margin: em(20) 1em 0 0;
 }

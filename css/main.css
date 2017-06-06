@@ -442,9 +442,30 @@ body {
   color: #222222;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif; }
+
 body > div.top-section.container-fluid > div > div > div > form > div > i {
   margin-top: .25em;
   text-shadow: none; }
+
+h1 {
+  font-size: 3.75em; }
+
+.body-container h3 {
+  font-size: 1.875em;
+  line-height: 1.4375em;
+  margin: 2em 0 0.5em 0; }
+
+.body-container h5 {
+  font-size: 1.25em;
+  margin-bottom: 1em; }
+
+.body-column h5 {
+  margin-top: 0.4375em; }
+
+.nav-event h5 {
+  margin: 1.25em 1em 0 0; }
 
 /**
  * Clear inner floats
@@ -502,25 +523,66 @@ body > div.top-section.container-fluid > div > div > div > form > div > i {
   width: 1px; }
 
 .body-column {
-  height: 19em;
+  height: 20em;
   background-color: #fff;
-  border: 0.125em solid red;
   margin: 1.75em 1.75em 0 1.75em; }
 
+.image {
+  border-radius: 100%;
+  background-color: #3ccf80;
+  width: 40%;
+  height: 25%;
+  margin: 0 auto;
+  margin-top: -2.1875em; }
+
+.start {
+  padding: 1em 1em 1em 1.3em; }
+
+.learn {
+  padding: 1.4em 1em 1em 0.6em; }
+
+.discover {
+  padding: 0.7em 1.2em 1em 0.65em; }
+
+.connect {
+  padding: 1.05em 1em 0 0.7em; }
+
+.weekend {
+  background-color: #fff; }
+
+.stats h1 {
+  color: #3ccf80;
+  font-weight: bold;
+  margin: 0; }
+.stats p {
+  color: #414141; }
+
 #search {
-  margin-right: 5em; }
+  margin-right: 3.5em;
+  width: 10em; }
 
 .top-section {
-  background-image: url("../img/photo.jpg");
+  background-image: url("../img/photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 50vh;
   color: #fff;
-  text-shadow: 2px 2px 4px #000; }
+  text-shadow: 1px 1px 4px #000; }
+
+body > div.top-section.container-fluid > div:nth-child(3) > div > div {
+  background-color: #3ccf80;
+  padding: 0.5em 3em;
+  border-radius: 0.9375em; }
 
 nav img {
   height: 50px; }
 
+body > div.top-section.container-fluid > nav > div > form > div > i {
+  text-shadow: none; }
+
 .btn-large {
   margin-top: 1em;
-  margin-left: 1em; }
+  margin-left: 1em;
+  border-radius: 0.9375em; }
 
 /*# sourceMappingURL=main.css.map */
