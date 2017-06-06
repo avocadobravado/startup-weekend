@@ -1,3 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+// search bar mixin
+#search {
+  @include nav-search;
+}
+// nav background
+.top-section {
+  background-image: url('../img/photo.jpg');
+  height: 50vh;
+  @include header-text;
+}
+// nav styles
+nav img {
+  height: 50px;
+}

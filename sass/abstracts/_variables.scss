@@ -38,7 +38,15 @@ $mid-grey: rgb(153, 153, 153) !default;
 /// @type Color
 $dark-grey: rgb(68, 68, 68) !default;
 
+/// Copy text color
+/// @type Color
+$header-text-color: #fff;
 
+// text shadow color
+$header-text-shadow: #000;
+
+// body background grey color
+$body-background-color: #f4f4f4;
 
 
 
@@ -46,7 +54,8 @@ $dark-grey: rgb(68, 68, 68) !default;
 /// @type Length
 $max-width: 1180px !default;
 
-
+//context for default type size
+$browser-context: 16;
 
 
 

@@ -5,3 +5,9 @@ body {
   color: $text-color;
   font: normal 125% / 1.4 $text-font-stack;
 }
+
+// nav close icon
+body > div.top-section.container-fluid > div > div > div > form > div > i {
+  margin-top: .25em;
+  text-shadow: none;
+}
